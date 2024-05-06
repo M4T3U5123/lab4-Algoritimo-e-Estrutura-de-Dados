@@ -3,16 +3,11 @@ import array.ListaArray;
 import array.ListaArray;
 
 
-public class FilaNeto implements Fila {
-    // private int capacidade;
-    // private int[] filaArray;
-    // private int inicio;
-    // private int fim;
-    // private int tamanho;
+public class FilaMateus implements Fila {
     ListaArray listaArray;
 
 
-    public FilaNeto() {
+    public FilaMateus() {
         listaArray = new ListaArray();
     }
 
@@ -24,7 +19,6 @@ public class FilaNeto implements Fila {
     @Override
     public int dequeue() {
         int valorRemovido = listaArray.ultimoElemento();
-            //indice--;
             listaArray.removeFim();
             return valorRemovido;
     }
@@ -43,12 +37,6 @@ public class FilaNeto implements Fila {
 
     @Override
     public boolean isFull() {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'isFull'");
     }
-
-    // @Override
-    // public boolean isFull() {
-    //     return listaArray.indice_final == listaArray.capacidade;
-    // }
 }
