@@ -1,8 +1,6 @@
 package array;
 import list.EstruturaElementar;
 
-/* Marcel Gustavo de Barros Araujo */
-
 public class ListaArray implements EstruturaElementar {
 
     private int[] array;
@@ -194,8 +192,5 @@ public class ListaArray implements EstruturaElementar {
 
     public void push(int pop) {
     }
-    // public boolean isFull() {
-    //     return indice_final == array.length;
-    // }
 
 }
