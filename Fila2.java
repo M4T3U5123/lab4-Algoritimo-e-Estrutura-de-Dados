@@ -53,9 +53,4 @@ public class Fila2 implements FilaComPilha {
         return tam;
     }
 
-
-    // public String isFull() {
-    //     return null;
-    // }
-    
 }
